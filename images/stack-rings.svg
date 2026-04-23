@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Stack of three rings placeholder">
+  <rect width="400" height="400" fill="#FFD166"/>
+  <ellipse cx="200" cy="170" rx="110" ry="32" fill="none" stroke="#D4AF37" stroke-width="12"/>
+  <ellipse cx="200" cy="215" rx="110" ry="32" fill="none" stroke="#B8B8B8" stroke-width="12"/>
+  <ellipse cx="200" cy="260" rx="110" ry="32" fill="none" stroke="#E8B4B8" stroke-width="12"/>
+  <circle cx="80" cy="90" r="3" fill="#2D1B3D" opacity="0.3"/>
+  <circle cx="330" cy="330" r="3" fill="#2D1B3D" opacity="0.3"/>
+</svg>

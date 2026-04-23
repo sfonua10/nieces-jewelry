@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Sunset hoop earrings placeholder">
+  <defs>
+    <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD166"/>
+      <stop offset="1" stop-color="#FF6B6B"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sunset)"/>
+  <circle cx="150" cy="215" r="70" fill="none" stroke="#FFF8F0" stroke-width="14"/>
+  <circle cx="250" cy="215" r="70" fill="none" stroke="#FFF8F0" stroke-width="14"/>
+  <circle cx="150" cy="141" r="6" fill="#FFF8F0"/>
+  <circle cx="250" cy="141" r="6" fill="#FFF8F0"/>
+  <circle cx="320" cy="80" r="4" fill="#FFF8F0" opacity="0.8"/>
+  <circle cx="80" cy="330" r="3" fill="#FFF8F0" opacity="0.6"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Pearl drop necklace placeholder">
+  <rect width="400" height="400" fill="#FDEED8"/>
+  <path d="M 70 110 Q 200 290 330 110" fill="none" stroke="#C9A96E" stroke-width="2.5" stroke-dasharray="3 6" stroke-linecap="round"/>
+  <circle cx="200" cy="258" r="30" fill="#FFFFFF" stroke="#E8D9BE" stroke-width="2"/>
+  <circle cx="191" cy="249" r="9" fill="#FFF8F0" opacity="0.85"/>
+  <path d="M 200 218 L 200 228" stroke="#C9A96E" stroke-width="2"/>
+  <circle cx="70" cy="110" r="4" fill="#C9A96E"/>
+  <circle cx="330" cy="110" r="4" fill="#C9A96E"/>
+</svg>

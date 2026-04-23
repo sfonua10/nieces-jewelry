@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Turquoise teardrop earrings placeholder">
+  <rect width="400" height="400" fill="#D1F3F0"/>
+  <circle cx="140" cy="110" r="7" fill="#D4AF37"/>
+  <path d="M 140 117 L 140 152" stroke="#D4AF37" stroke-width="2.5"/>
+  <path d="M 140 155 Q 105 190 140 275 Q 175 190 140 155 Z" fill="#4ECDC4" stroke="#2D1B3D" stroke-width="1.5"/>
+  <ellipse cx="130" cy="190" rx="6" ry="14" fill="#FFF8F0" opacity="0.45"/>
+  <circle cx="260" cy="110" r="7" fill="#D4AF37"/>
+  <path d="M 260 117 L 260 152" stroke="#D4AF37" stroke-width="2.5"/>
+  <path d="M 260 155 Q 225 190 260 275 Q 295 190 260 155 Z" fill="#4ECDC4" stroke="#2D1B3D" stroke-width="1.5"/>
+  <ellipse cx="250" cy="190" rx="6" ry="14" fill="#FFF8F0" opacity="0.45"/>
+</svg>

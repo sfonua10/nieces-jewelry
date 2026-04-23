@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Rainbow beaded bracelet placeholder">
+  <rect width="400" height="400" fill="#4ECDC4"/>
+  <path d="M 50 200 Q 200 260 350 200" fill="none" stroke="#2D1B3D" stroke-width="2" opacity="0.4"/>
+  <circle cx="55"  cy="205" r="18" fill="#FF6B6B"/>
+  <circle cx="92"  cy="219" r="18" fill="#FFD166"/>
+  <circle cx="130" cy="229" r="18" fill="#A06CD5"/>
+  <circle cx="168" cy="236" r="18" fill="#FFF8F0"/>
+  <circle cx="200" cy="238" r="18" fill="#FF6B6B"/>
+  <circle cx="232" cy="236" r="18" fill="#FFD166"/>
+  <circle cx="270" cy="229" r="18" fill="#A06CD5"/>
+  <circle cx="308" cy="219" r="18" fill="#FFF8F0"/>
+  <circle cx="345" cy="205" r="18" fill="#FF6B6B"/>
+</svg>
