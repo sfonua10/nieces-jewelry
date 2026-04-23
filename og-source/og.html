@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>og</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Fraunces:ital,opsz,wght@1,9..144,600;1,9..144,700&display=swap"
+    />
+    <style>
+      * { box-sizing: border-box; }
+      html, body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      body {
+        width: 1200px;
+        height: 630px;
+        font-family: "DM Sans", -apple-system, system-ui, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        line-height: 0;
+      }
+      .og {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 1200px;
+        height: 630px;
+        display: flex;
+        overflow: hidden;
+      }
+      .og-half {
+        width: 600px;
+        height: 630px;
+        flex: 0 0 600px;
+        padding: 72px 60px 0;
+        position: relative;
+      }
+      .og-half.viola {
+        background:
+          radial-gradient(600px 300px at 100% 0%, rgba(255, 248, 240, 0.18), transparent 70%),
+          #ff6b6b;
+      }
+      .og-half.tirana {
+        background:
+          radial-gradient(600px 300px at 0% 0%, rgba(255, 248, 240, 0.22), transparent 70%),
+          #4ecdc4;
+      }
+
+      .og-name {
+        font-family: "Fraunces", Georgia, serif;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 160px;
+        line-height: 0.9;
+        letter-spacing: -0.03em;
+        color: #2d1b3d;
+      }
+      .og-half.viola .og-name { transform: rotate(-3deg); transform-origin: left bottom; }
+      .og-half.tirana .og-name { transform: rotate(2deg); transform-origin: left bottom; }
+
+      .og-city {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 36px;
+        font-weight: 500;
+        font-size: 32px;
+        color: #2d1b3d;
+        background: rgba(255, 248, 240, 0.7);
+        padding: 10px 20px 10px 16px;
+        border-radius: 999px;
+        backdrop-filter: blur(3px);
+      }
+      .og-city svg { display: block; }
+
+      .og-sparkle {
+        position: absolute;
+        color: #ffd166;
+      }
+      .og-sparkle-tl { top: 44px; right: 60px; width: 42px; height: 42px; }
+      .og-sparkle-tr { top: 44px; left: 60px; width: 42px; height: 42px; color: #fff8f0; }
+
+      .og-center {
+        position: absolute;
+        bottom: 78px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #fff8f0;
+        padding: 22px 50px 28px;
+        border-radius: 999px;
+        text-align: center;
+        box-shadow: 0 24px 40px rgba(45, 27, 61, 0.25);
+        white-space: nowrap;
+      }
+      .og-wordmark {
+        font-family: "Fraunces", Georgia, serif;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.1;
+        letter-spacing: -0.015em;
+      }
+      .og-wordmark .v { color: #ff6b6b; }
+      .og-wordmark .amp { color: #a06cd5; padding: 0 10px; font-weight: 600; font-size: 44px; vertical-align: 4px; }
+      .og-wordmark .t { color: #4ecdc4; }
+      .og-subtitle {
+        margin-top: 8px;
+        font-family: "DM Sans", sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        color: #5a4a6a;
+        letter-spacing: 0.02em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="og">
+      <div class="og-half viola">
+        <svg class="og-sparkle og-sparkle-tl" viewBox="0 0 40 40" aria-hidden="true">
+          <path d="M20 2 L22 18 L38 20 L22 22 L20 38 L18 22 L2 20 L18 18 Z" fill="currentColor"/>
+        </svg>
+        <div class="og-name">Viola</div>
+        <div class="og-city">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z" fill="currentColor"/>
+          </svg>
+          Lindon, UT
+        </div>
+      </div>
+      <div class="og-half tirana">
+        <svg class="og-sparkle og-sparkle-tr" viewBox="0 0 40 40" aria-hidden="true">
+          <path d="M20 2 L22 18 L38 20 L22 22 L20 38 L18 22 L2 20 L18 18 Z" fill="currentColor"/>
+        </svg>
+        <div class="og-name">Tirana</div>
+        <div class="og-city">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z" fill="currentColor"/>
+          </svg>
+          Orem, UT
+        </div>
+      </div>
+      <div class="og-center">
+        <div class="og-wordmark">
+          <span class="v">Viola</span><span class="amp">&amp;</span><span class="t">Tirana</span>
+        </div>
+        <div class="og-subtitle">handmade jewelry · Utah</div>
+      </div>
+    </div>
+  </body>
+</html>

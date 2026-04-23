@@ -177,6 +177,54 @@ body {
   color: var(--cream-soft);
 }
 
+/* ---------- local Utah band ---------- */
+.local-band {
+  background: linear-gradient(90deg, var(--coral-soft), var(--mint-soft));
+  padding: 1.15rem 1.5rem;
+  border-top: 1px solid rgba(160, 108, 213, 0.18);
+  border-bottom: 1px solid rgba(160, 108, 213, 0.18);
+}
+
+.local-band-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.local-pin {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  background: var(--cream);
+  color: var(--plum);
+  border-radius: 50%;
+  box-shadow: var(--shadow-soft);
+}
+
+.local-band p {
+  color: var(--ink);
+  font-size: 0.98rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.local-band strong {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 600;
+  color: var(--plum);
+}
+
+@media (max-width: 500px) {
+  .local-band p { font-size: 0.92rem; line-height: 1.45; }
+  .local-pin { width: 2rem; height: 2rem; }
+}
+
 /* ---------- sections ---------- */
 .section {
   padding: clamp(3.5rem, 8vw, 6rem) 1.5rem;
@@ -370,6 +418,29 @@ body {
 
 .maker-card[data-maker="viola"] .maker-name { color: var(--coral); }
 .maker-card[data-maker="tirana"] .maker-name { color: var(--mint); }
+
+.maker-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: var(--font-body);
+  padding: 0.3rem 0.85rem 0.3rem 0.7rem;
+  border-radius: 999px;
+  margin: 0 auto 1rem;
+}
+
+.maker-card[data-maker="viola"] .maker-location {
+  color: var(--coral);
+  background: var(--coral-soft);
+}
+.maker-card[data-maker="tirana"] .maker-location {
+  color: #0b3a38;
+  background: var(--mint-soft);
+}
+
+.maker-location svg { color: currentColor; flex: 0 0 auto; }
 
 .maker-blurb {
   color: var(--ink-soft);
