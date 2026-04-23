@@ -105,8 +105,21 @@ This folder is just static files. It works on GitHub Pages, Netlify, Cloudflare 
 index.html         the whole page
 style.css          colors, layout, responsive grid
 main.js            builds Venmo links from data-* attributes
-images/            product photos (placeholders ship in this repo) + favicon
+images/            product photos + favicon + og-image.png (social preview)
+og-source/
+  og.html          source for the social-preview image
+  render.sh        regenerates images/og-image.png from og.html
 ```
+
+## Regenerating the social-preview (OG) image
+
+If you edit `og-source/og.html` (or want a fresh render), run:
+
+```sh
+./og-source/render.sh
+```
+
+It uses Chrome headless + macOS's built-in `sips` tool — no install needed. Output is written to `images/og-image.png` at 1200×630.
 
 ## How the "Pay with Venmo" button works
 
